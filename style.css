@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+#output {
+    min-width: 300px;
+    min-height: 50px;
+    background-color: lightseagreen;
+    margin: 0 auto;
+}
