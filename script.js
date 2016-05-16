@@ -1,7 +1,7 @@
 ;(function(){
     var num = 9,
         mas1 = [],
-        n = 299,
+        n = 99,
         tmp = 0;
     
     mas1.push(num);
