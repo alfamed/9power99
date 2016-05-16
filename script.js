@@ -1,7 +1,7 @@
 ;(function(){
     var num = 9,
         mas1 = [],
-        n = 99,
+        n = 299,
         tmp = 0;
     
     mas1.push(num);
@@ -38,12 +38,15 @@
      }
 
     //  inverting
-    var k = 0;
+    var k = 0,
+        concat = '';
     for (var j = tmpResult.length-1; j >= 0; j--) {       
         mas1[k] = tmpResult[j];
+        concat += mas1[k];
         k++;
     }
     
-    console.log(mas1);
+    // output
+    $('#mas1').html(concat);
     
 })();
