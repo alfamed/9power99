@@ -1,9 +1,11 @@
 ;(function(){
     var num = 9,
         mas1 = [],
-        n = 99,
-        tmp = 0;
-    
+        n = 12499,
+        tmp = 0,
+        dateNow;
+
+    dateNow = Date.now();
     mas1.push(num);
 
      for (var i = 2; i <= n; i++) {
@@ -47,6 +49,6 @@
     }
     
     // output
-    $('#mas1').html(concat);
-    
+    $('#mas1').html('Time spent: ' + (Date.now() - dateNow) + 'ms' + ' and length is: ' + k + '\n' + concat);
+
 })();
